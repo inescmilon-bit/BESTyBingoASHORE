@@ -83,7 +83,7 @@
 </head>
 <body>
   <div class="app">
-    <img src="Ashore/mascot.png" alt="Mascot" class="mascot" />
+    <img src="mascot.png" alt="Mascot" class="mascot" />
     <header>
       <div><span class="badge">Find Someone Who…</span></div>
       <h1>BESTy Bingo</h1>
@@ -127,7 +127,7 @@
 
     // --- Prompts ---
     const PROMPTS = [
-      'Has been working here for more than 10 years','Was born in the same month as you','Has visited more than 5 countries','Can play a musical instrument','Joined the company this year','Speaks more than two languages','Has a pet at home','Enjoys hiking or outdoor sports','Has the same favorite color as you','Loves Italian Espresso ristretto','Has traveled outside of Europe','Can cook Pasta alla Nerano','Knows more than 3 of the new BESTy Ambassadors personally','Has a hidden talent (ask what it is!)','Loves reading books in English','Has run a marathon or other race'];
+      'Has been working here for more than 10 years','Was born in the same month as you','Has visited more than 5 countries','Can play a musical instrument','Joined the company this year','Speaks more than two languages','Has a pet at home','Enjoys hiking or outdoor sports','Has the same favorite color as you','Can bake bread','Has traveled outside of Europe','Prefers iced drinks over hot ones','Knows more than 3 of the new BESTy Ambassadors personally','Has a hidden talent (ask what it is!)','Loves reading books in English','Has run a marathon or other race'];
 
     // --- Seeded shuffle (stable per ID) ---
     function xmur3(str){let h=1779033703^str.length;for(let i=0;i<str.length;i++){h=Math.imul(h^str.charCodeAt(i),3432918353);h=h<<13|h>>>19;}return function(){h=Math.imul(h^h>>>16,2246822507);h=Math.imul(h^h>>>13,3266489909);return(h^h>>>16)>>>0;}}
